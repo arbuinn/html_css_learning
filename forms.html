@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arbuinn</title>
+</head>
+<body>
+    <!--Radio buttons-->
+
+    <form>
+        <input type="radio" name="favlanguage" id="favlanguage" value="javascript">
+        <label for="javascript">Javascript</label><br>
+        <input type="radio" name="favlanguage" id="favlanguage" value="python">
+        <label for="python">Python</label><br>
+        <input type="radio" name="favlanguage" id="favlanguage">
+        <label for="cpp">C++</label><br>
+        <!--above code is really wrong!!-->
+
+        <!--can't seem to understand the whole name, id, vale thing....which ones should be similar? which ones shouuld be different? I'm gonna take a break and come back to it-->
+    </form>
+    <!--Okay, so...id is for the label part, value sets the default value of the input-->
+    <hr>
+
+    <!--Chapter 7 forms example-->
+
+    <form action="action.html" method="get"><!--For some reason I can't showcase the inputs of the forms.html page inputs to the action.html page-->
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="how">How did you hear about us?</label>
+            <select name="socials" id="how">
+                <option value="Google">Google</option>
+                <option value="twitter">Twitter</option>
+                <option value="instagram">Instagram</option>
+            </select>
+            <br><br>
+            <p>Would you visit again?</p>
+            <input type="radio" name="visitagain" id="yes" value="yes"> <label for="yes">Yes</label>
+            <input type="radio" name="visitagain" id="no" value="no"><label for="no">No</label>
+            <input type="radio" name="visitagain" id="maybe" value="maybe"><label for="maybe">Maybe</label>
+
+
+            <br><br>
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments"></textarea>
+
+            <br>
+            <input type="checkbox" name="signup" id="signup"><label for="signup">Sign Me up for email updates</label><br>
+            <button type="reset">Reset</button> <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

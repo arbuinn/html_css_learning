@@ -1,0 +1,57 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    line-height: 2.0em;
+}
+#cite{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    font-size: 24px;
+    background-color: grey;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.slogan{
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: 0.2em;
+    text-align: right;
+}
+.first{
+    text-transform: capitalize;
+    word-spacing: 0.2em;
+}
+.first::first-line{
+    color: green;
+}
+h2{
+    line-height: normal;
+    text-transform: uppercase;
+    text-indent: 30px;
+}
+h2+p::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Links */
+a{
+    font-size: 14px;
+}
+a:link{
+    color: deeppink;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
+}

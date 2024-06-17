@@ -1,0 +1,53 @@
+div>p{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    margin: 40px auto 10px auto;
+}
+div.box{
+    height: 400px;
+    width: 75%;
+    background-color: green;
+}
+img{
+    height: 75px;
+    width: 100px;
+}
+table{
+    min-width: 450px;
+    max-width: 500px;
+
+}
+table,td, th{
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: green;
+}
+th, td{
+    min-width: 100px;
+    text-align: center;
+}
+p.test{
+    border: 4px solid deeppink; /*shorthand*/
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+}
+table{
+    margin: 10px auto 10px auto;
+}
+*{
+    max-width: 1200px;
+    margin: 10px auto 10px auto;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:link{
+    color: deeppink;
+}
+a:visited{
+    color: green;
+}

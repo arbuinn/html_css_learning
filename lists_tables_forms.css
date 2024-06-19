@@ -1,0 +1,13 @@
+ul{
+    list-style-type: disc; /*accepts none, square, circle and discs*/
+    list-style-position: inside;
+}
+ol{
+    list-style-type: upper-roman;/*accepts multiple including decimal, upper-alpha, lower-alpa, lower-roman etc.*/
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+    empty-cells: hide;
+    border-spacing: 3px 15px;
+}
